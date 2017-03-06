@@ -1,0 +1,142 @@
+/* Texts */
+.headline {
+	font-size: 1.8rem;
+}
+.description {
+	font-size: 1.2rem;
+}
+.text {
+	font-size: .9rem;
+	color: #555555;
+}
+
+/* Safe area */
+.safe-area {
+	background-color: #fcda45;
+	padding:2rem 0;
+}
+.heading {
+	height: 60px;
+}
+.carousel {
+	margin-top: 2rem;
+}
+.carousel-inner {
+	height: 100vh;
+}
+.carousel-item {
+	padding:0 3rem;
+}
+.app-share {
+	margin-top: 1rem;
+}
+.slide-img {
+	display: none;
+}
+
+/* Features */
+.features {
+	padding:5rem 0;
+}
+.features .feature-item {
+	margin-top: 2rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.features .feature-header {
+	margin-left: 0rem;
+}
+.features .feature-header .headline {
+	font-size: 1.5rem;
+	text-align: center;
+}
+.features .feature-header .text {
+	color: #898989;
+	text-align: center;
+}
+.features .fa {
+	font-size: 2.5rem;
+	position: initial;
+	left: 0;
+	margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+	padding: 5rem 0;
+	background-color: #000;
+}
+.footer .headline {
+	color: #fcdb00;
+}
+.footer .btn-warning {
+	background-color: #fcdb00;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+}
+.footer .btn-warning:hover {
+	cursor: pointer;
+}
+.footer .text {
+	font-size: 1.5rem;
+}
+.footer form {
+	margin: 3rem 0 5rem 0;
+}
+.footer .social-connect {
+	margin-bottom: 5rem;
+}
+.list-style-none {
+	list-style: none;
+}
+.footer-item, 
+.footer-link,
+.footer-link:hover {
+	color: #fff;
+	font-weight: 300;
+}
+.footer-link:hover {
+	text-decoration: underline;
+}
+
+/* Breakpoints */
+@media (min-width: 765px) {
+	.headline {
+		font-size: 2.2rem;
+	}
+	.description {
+		font-size: 1.5rem;
+	}
+	.carousel-inner {
+		height: 400px;
+	}
+}
+@media (min-width: 1200px) {
+	.carousel-inner {
+		height: 650px;
+	}
+	.slide-img {
+		display: block;
+	}
+	.features .feature-header {
+		margin-left: 3rem;
+	}
+	.features .feature-header .headline,
+	.features .feature-header .text {
+		text-align: left;
+	}
+	.features .feature-item {
+		margin-top: 5rem;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	.features .fa {
+		font-size: 2.5rem;
+		position: absolute;
+		left: 0;
+		margin-bottom: 0;
+	}
+}
