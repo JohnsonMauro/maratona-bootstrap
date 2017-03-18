@@ -58,8 +58,9 @@
 .features .space-top {
 	margin-top: 3rem;
 }
+.features .feature-item .feature-header {
+	margin-left: 3rem;
+}
 .features .feature-item .fa {
 	position: absolute;
-	left: 0;
-	margin-left: -2rem;
 }
