@@ -1,0 +1,65 @@
+/* Safe area */
+
+.safe-area {
+	height: 100vh;
+	background-color: #fcdb00;
+	padding-top: 10px;
+}
+
+/* Heading */
+.heading {
+	height: 70px;
+}
+.nav-link {
+	color: black;
+	font-weight: bold;
+}
+.nav-link:hover {
+	color: #444;
+	text-decoration: underline;
+}
+
+/* Global texts */
+.headline {
+	font-size: 2rem;
+}
+
+.description {
+	font-size: 1.3rem;
+}
+
+.text {
+	font-size: .9rem;
+}
+
+/* Carousel */
+.carousel-control-prev,
+.carousel-control-next {
+	width: 8%;
+}
+
+.carousel-inner {
+	padding:0 5rem;
+	height: 650px;
+}
+
+.carousel {
+	margin-top: 2rem;
+}
+
+.space-item {
+	padding-top: 5rem;
+}
+
+/* Features */
+.features {
+	padding:5rem 0;
+}
+.features .space-top {
+	margin-top: 3rem;
+}
+.features .feature-item .fa {
+	position: absolute;
+	left: 0;
+	margin-left: -2rem;
+}
