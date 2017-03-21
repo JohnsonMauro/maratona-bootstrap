@@ -1,66 +1,61 @@
 /* Safe area */
-
 .safe-area {
 	height: 100vh;
 	background-color: #fcdb00;
-	padding-top: 10px;
+	padding-top: 1rem;
 }
 
-/* Heading */
-.heading {
-	height: 70px;
+/* Header */
+.header {
+	height: 60px;
 }
 .nav-link {
-	color: black;
+	color: #000;
 	font-weight: bold;
 }
 .nav-link:hover {
-	color: #444;
 	text-decoration: underline;
+	color: #000;
 }
 
 /* Global texts */
 .headline {
 	font-size: 2rem;
 }
-
 .description {
 	font-size: 1.3rem;
 }
-
 .text {
-	font-size: .9rem;
+	font-size: .85rem;
+	color: #898989;
 }
 
 /* Carousel */
-.carousel-control-prev,
-.carousel-control-next {
-	width: 8%;
-}
-
 .carousel-inner {
-	padding:0 5rem;
+	margin-top: 3rem;
 	height: 650px;
 }
-
-.carousel {
-	margin-top: 2rem;
+.wrapper-carousel {
+	margin-top: 4rem;
+	padding-right: 7rem;
+}
+.carousel-item .text {
+	color: #555555;
 }
 
-.space-item {
-	padding-top: 5rem;
-}
-
-/* Features */
-.features {
+/* Feature */
+.feature {
 	padding:5rem 0;
 }
-.features .space-top {
+.feature .row {
 	margin-top: 3rem;
 }
-.features .feature-item .feature-header {
-	margin-left: 3rem;
+.feature .feature-item {
+	padding:0 1rem;
 }
-.features .feature-item .fa {
+.feature .feature-item .fa {
 	position: absolute;
+}
+.feature .feature-item .feature-heading {
+	margin-left: 3rem;
 }
